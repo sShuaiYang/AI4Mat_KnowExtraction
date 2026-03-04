@@ -1,0 +1,4 @@
+(TS = ("materials science" OR "material*" OR "materials informati*" OR "materials data" OR "materials database" OR "Material Properties" OR "Experimental Materials Data" )
+AND
+TS = (("information" OR "literature" OR "data*" OR "text" OR "document" OR "knowledge" OR "paper" OR "Ontolog*" ) AND ( "mining" OR "extract*" OR "collect*"OR "Autogenerat*") AND ( NLP OR "natural language processing" OR "named entity recognition" OR NER OR "machine learning" OR "deep learning" OR "large language model*" OR "BERT model*" OR “semantic*” OR “artificial intelligence”))NOT
+TS = (COURSES OR MEDICINE) ) NOT WC=(Health Care Sciences & Services)
